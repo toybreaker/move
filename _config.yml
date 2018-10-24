@@ -1,10 +1,10 @@
 title: MOVE
 subtitle_id: Taman belajar dan bermain
 subtitle_en: Learn and play community centre
-description: "Di Move kamu akan bersenang-senang tanpa internet, berolahraga, belajar dan makan dengan baik. - At Move you eat well, exercise, learn something and have fun without internet."
+description: "Di Move kamu akan bersenang-senang tanpa internet, berolahraga, belajar dan makan dengan baik. - At Move you eat well, exercise, learn something, have fun without needing internet."
 keywords: learn, play, exercise, indoor, outdoor, Bali, swimmingpool, green, healthy, afterschool, centre, community, Indonesia
 lang: en
-version: 0.0.2
+version: 0.0.3
 baseurl: ""
 url: "https://movecentre.org"
 qr: show # 'show' or 'hide' put qr.svg in includes/defs.html call it: icn--qr
@@ -48,7 +48,7 @@ facebook:
 logo: /assets/favicons/apple-touch-icon-152x152.png
 
 google:
-  analytics:
+  analytics: UA-128046691-1
   verification: google32e66f1a5601ec40
 
 # Build settings
