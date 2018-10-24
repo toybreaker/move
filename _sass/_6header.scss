@@ -118,3 +118,10 @@
     }
   }
 }
+
+//in header and footer
+h3.subtitle {
+  @include media("screen", "<minWidth") {
+    font-size: 14px;
+  }
+}
