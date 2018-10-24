@@ -2,7 +2,7 @@
   display: block;
   padding: $vertical_rhythm 0;
   width: 100%;
-  background-color: $grey--light;
+  background-color: $brand_color_light_background; // $grey--light;
 
   .container {
     -webkit-box-shadow: none;

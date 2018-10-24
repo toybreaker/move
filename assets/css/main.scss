@@ -4,12 +4,13 @@
 $font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 
 $brand_color: rgba(35,116,58,1); // #23743a
+$brand_color_light_background: lighten($brand_color, 60); //#d6f3de //old one #83e69f;
 $black: hsl(0,0,0);
 $link_color: hsl(0,0,0);
 $bg_color: hsl(0, 0%, 96%);
 $grey: hsl(0,0,45);
 $grey--light: hsl(0,0,85);
-$underline_link_color : lighten($brand_color, 40);
+$underline_link_color: $brand_color_light_background;
 $product_category_1: hsla(117, 100%, 81%, .75); //food
 $product_category_2: hsla(43, 100%, 81%, .75); //tour
 $product_category_3: hsla(205, 100%, 81%, .75); //accommodation
