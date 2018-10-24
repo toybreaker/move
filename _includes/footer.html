@@ -6,7 +6,7 @@
 
     <!-- <h2 class="title">{{site.title}} Centre</h2> -->
 
-    <h3 class="subtitle brand_color">{{site.subtitle_id | upcase}}</h3>  
+    <h3 class="subtitle brand_color">{{site.subtitle_id | upcase}}</h3>
     <h3 class="subtitle">{{site.subtitle_en | upcase}}</h3>
 
     <div class="menu menu_footer">
@@ -29,8 +29,8 @@
                 <div class="name" itemprop="name">{{site.company.name}}</div>
               {% endif %}
               <span itemscope itemtype="http://schema.org/PostalAddress">
-                <div itemprop="streetAddress">{{site.company.address}}</div>
-                <div itemprop="addressLocality">,&nbsp;{{site.company.country}}</div>
+                <div itemprop="streetAddress">{{site.company.address}}&nbsp;</div>
+                <div itemprop="addressLocality">{{site.company.country}}</div>
               </span>
             </div>
           </a>

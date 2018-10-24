@@ -4,7 +4,7 @@ subtitle_en: Learn and play community centre
 description: "Di Move kamu akan bersenang-senang tanpa internet, berolahraga, belajar dan makan dengan baik. - At Move you eat well, exercise, learn something and have fun without internet."
 keywords: learn, play, exercise, indoor, outdoor, Bali, swimmingpool, green, healthy, afterschool, centre, community, Indonesia
 lang: en
-version: 0.0.1
+version: 0.0.2
 baseurl: ""
 url: "https://movecentre.org"
 qr: show # 'show' or 'hide' put qr.svg in includes/defs.html call it: icn--qr
