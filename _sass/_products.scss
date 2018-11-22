@@ -2,27 +2,39 @@ figure {
   position: relative;
   margin: 0;
   padding: 0;
+
+  h1 {
+    &.lang_i {
+      margin-bottom: $vertical_rhythm--small;
+    }
+
+    &.lang_e {
+      margin-bottom: $vertical_rhythm--small;
+    }
+  }
+
+  h2 {
+    &.lang_i {
+      margin-bottom: $vertical_rhythm--small;
+    }
+
+    &.lang_e {
+      margin-bottom: $vertical_rhythm*2;
+    }
+  }
+
+
 }
 
 figcaption {
-  position: absolute;
+
   top: $vertical_rhythm--small;
   right: 0;
-  padding: 0 5px;
-  text-transform: capitalize;
+  padding: 0 25px;
   font-weight: 500;
-  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 
-  &.coming-soon {
-    background-color: yellow;
-    color: black;
-  }
 
-  &.new {
-    background-color: red;
-    color: white;
-  }
+
 }
 
 .product_grid {

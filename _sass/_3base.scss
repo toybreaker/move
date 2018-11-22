@@ -150,3 +150,14 @@ blockquote p {
 .brand_color {
   color: $brand_color;
 }
+
+
+.lang_i {
+  color: $brand_color;
+  margin-bottom: $vertical_rhythm--small;
+}
+
+.lang_e {
+  color: black;
+  margin-bottom: $vertical_rhythm*2;
+}
