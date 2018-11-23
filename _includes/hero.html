@@ -11,4 +11,18 @@
                {{ f[0] | relative_url }}{{ include.name }}-1920.{{ f[1] }} 1920w"
        sizes="100vw" alt="{{ site.title }} - {{ page.title }}" />
 
- </div>
+</div>
+
+<h1 class="lang_i center">{{ include.shoutI }}</h1>
+<h1 class="lang_e center">{{ include.shoutE }}</h1>
+
+{% include image.html name="-02"
+shoutI="Di Move Kamu akan bersenang-senang tanpa internet, berolahraga, belajar dan makan dengan baik."
+shoutE="At Move you eat well, exercise, learn something and have fun without internet"
+captionI="Terdapat 12 sekolah internasional dan 13 sekolah umum disekitar daerah Sanur, namun kita tidak dapat menemukan tempat yang baik dengan linkungan dengan fasilitas yang sehat untuk anak anak dapat bermain dan belajar sehabis sekolah maupun dimasa liburan sekolah. Kehidupan saat ini mulai dijenuhkan  dengan teknologi sehingga kita memerlukan fasilitas ini segera."
+captionE="There are 12 international schools and 13 national ones around Sanur area, and yet, we not yet dispose of a good quality place with comprehensive facilities and healthy environment where children can play and learn after school, during weekends and school holidays.
+At the same time, in today tech saturated life, we urgently need one."
+%}
+
+<h2 class="lang_i center">{{ include.captionI }}</h2>
+<h2 class="lang_e center">{{ include.captionE }}</h2>

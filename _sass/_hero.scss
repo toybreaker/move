@@ -3,6 +3,10 @@
 .hero {
   position: relative;
   height: calc(100vh - 127px);
+  @include media( "screen", ">bp1Width") {
+    min-height: calc(100vh - 127px);
+    height: 100%;
+  }
   overflow: hidden;
   margin-bottom: $vertical_rhythm;
 }
@@ -12,4 +16,7 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%,0);
+  @include media( "screen", ">bp1Width") {
+    height: auto;
+  }
 }

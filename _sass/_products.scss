@@ -4,6 +4,8 @@ figure {
   padding: 0;
 
   h1 {
+    max-width: 80%;
+    margin: 0 auto;
     &.lang_i {
       margin-bottom: 0;
     }
@@ -14,6 +16,8 @@ figure {
   }
 
   h2 {
+    max-width: 80%;
+    margin: 0 auto;
     &.lang_i {
       margin-top: $vertical_rhythm--small;
       margin-bottom: $vertical_rhythm--small/2;

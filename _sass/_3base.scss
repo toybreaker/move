@@ -161,3 +161,9 @@ blockquote p {
   color: black;
   margin-bottom: $vertical_rhythm*2;
 }
+
+.horizontal_separator {
+  width:10%;
+  max-width: 50px;
+  margin-bottom: $vertical_rhythm*2;
+}
