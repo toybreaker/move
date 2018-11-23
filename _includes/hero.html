@@ -1,28 +1,91 @@
-<div class="hero">
-
-  {% comment %}
-  assign the page image and split at the extension dot
-  {% endcomment %}
-  {% assign f = page.image | split: '.' %}
-  <img class="hero_image" src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
-       srcset="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }} 640w,
+<div class="hero"> {% comment %} assign the page image and split at the extension dot {% endcomment %} {% assign f = page.image | split: '.' %} <img class="hero_image"
+    src="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }}"
+    srcset="{{ f[0] | relative_url }}{{ include.name }}-640.{{ f[1] }} 640w,
                {{ f[0] | relative_url }}{{ include.name }}-880.{{ f[1] }} 880w,
                {{ f[0] | relative_url }}{{ include.name }}-1024.{{ f[1] }} 1024w,
                {{ f[0] | relative_url }}{{ include.name }}-1920.{{ f[1] }} 1920w"
-       sizes="100vw" alt="{{ site.title }} - {{ page.title }}" />
+    sizes="100vw"
+    alt="{{ site.title }} - {{ page.title }}" />
 
 </div>
 
-<h1 class="lang_i center">{{ include.shoutI }}</h1>
-<h1 class="lang_e center">{{ include.shoutE }}</h1>
+<div class="subhero">
 
-{% include image.html name="-02"
-shoutI="Di Move Kamu akan bersenang-senang tanpa internet, berolahraga, belajar dan makan dengan baik."
-shoutE="At Move you eat well, exercise, learn something and have fun without internet"
-captionI="Terdapat 12 sekolah internasional dan 13 sekolah umum disekitar daerah Sanur, namun kita tidak dapat menemukan tempat yang baik dengan linkungan dengan fasilitas yang sehat untuk anak anak dapat bermain dan belajar sehabis sekolah maupun dimasa liburan sekolah. Kehidupan saat ini mulai dijenuhkan  dengan teknologi sehingga kita memerlukan fasilitas ini segera."
-captionE="There are 12 international schools and 13 national ones around Sanur area, and yet, we not yet dispose of a good quality place with comprehensive facilities and healthy environment where children can play and learn after school, during weekends and school holidays.
-At the same time, in today tech saturated life, we urgently need one."
-%}
+  <h1 class="lang_i center">
 
-<h2 class="lang_i center">{{ include.captionI }}</h2>
-<h2 class="lang_e center">{{ include.captionE }}</h2>
+    {{ include.shoutI }}
+
+  </h1>
+
+  <h1 class="lang_e center">
+
+    {{ include.shoutE }}
+
+  </h1>
+
+
+  {% include image.html name="-02" shoutI="Di Move Kamu akan bersenang-senang tanpa internet, berolahraga, belajar dan makan dengan baik." shoutE="At Move you eat well, exercise, learn something and have fun without internet"
+  captionI="Terdapat 12 sekolah internasional dan 13 sekolah umum disekitar daerah Sanur, namun kita tidak dapat menemukan tempat yang baik dengan linkungan dengan fasilitas yang sehat untuk anak anak dapat bermain dan belajar sehabis sekolah maupun
+  dimasa liburan sekolah. Kehidupan saat ini mulai dijenuhkan dengan teknologi sehingga kita memerlukan fasilitas ini segera." captionE="There are 12 international schools and 13 national ones around Sanur area, and yet, we not yet dispose of a good
+  quality place with comprehensive facilities and healthy environment where children can play and learn after school, during weekends and school holidays. At the same time, in today tech saturated life, we urgently need one." %}
+
+  <h2 class="lang_i center">
+
+    {{ include.captionI }}
+
+  </h2>
+
+  <h2 class="lang_e center">
+
+    {{ include.captionE }}
+
+  </h2>
+
+  <hr class="horizontal_separator">
+
+  <blockquote class="lang_i">
+    <p>“Proyek ini menyediakan ruang khusus bagi anak-anak untuk kegiatan bermain dan aktifitas yang mendidik”</p>
+  </blockquote>
+
+  <blockquote class="lang_e">
+    <p>“With our project we provide a place to socialize, built for physical fun and educative activities”</p>
+  </blockquote>
+
+
+  <blockquote class="lang_i">
+    <p>“Tempat yang tepat untuk berkembang, bersahabat, dan mebuka pikiran”</p>
+  </blockquote>
+
+  <blockquote class="lang_e">
+    <p>“A perfect ground for bonding and growing open minded”</p>
+  </blockquote>
+
+
+
+  <blockquote class="lang_i">
+    <p>“Panca indera diterlibatkan dalam semua kegiatan”</p>
+  </blockquote>
+
+  <blockquote class="lang_e">
+    <p>“Nurturing a reality were all five senses are at play”</p>
+  </blockquote>
+
+
+
+  <blockquote class="lang_i">
+    <p>“Anak-anak Anda akan merasa aman dan menikmati kegiatan-kegiatan sehat dan berkualitas”</p>
+  </blockquote>
+
+  <blockquote class="lang_e">
+    <p>“Kids are in safe hands, spending healthy, quality time” </p>
+  </blockquote>
+
+  {% include svg/use.html id="icn--logo" class="logo " %}
+
+  <div class="spacer"></div>
+
+  <h2 class="lang_i center">Move untuk berkembang.<br> Move untuk lebih memahami dunia di sekitar kita.<br> Move untuk menciptakan masyarakat yang lebih cerdas.<br> Move untuk menciptakan masa depan yang lebih baik.<br> Move untuk menciptakan kehidupan yang lebih sehat.</h2>
+
+  <h2 class="lang_e center">Move to improve..<br> Move for a better understanding..<br> Move for a better community..<br> Move for a better tomorrow..<br> Move for a better life.</h2>
+
+</div>
